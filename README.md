@@ -1,4 +1,4 @@
-# INSTALLATION 
+# INSTALLATIONS
 Microservices_Deployement  :-
 
 Step 1: IAM Configuration
