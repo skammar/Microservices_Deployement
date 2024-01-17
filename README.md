@@ -75,12 +75,16 @@ To delete the EKS cluster:
 eksctl delete cluster --name three-tier-cluster --region us-west-2
 
 
+
+Step 11:- 
 #install helm
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
 chmod 700 get_helm.sh
 ./get_helm.sh
 
 
+
+Step 12:-
 #install terraform
 sudo apt-get update
 sudo apt-get install -y gnupg software-properties-common curl
@@ -89,6 +93,8 @@ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(l
 sudo apt-get update && sudo apt-get install terraform
 
 
+
+Step 13:-
 #install  docker compose
 sudo apt-get update
 sudo apt-get install -y curl
